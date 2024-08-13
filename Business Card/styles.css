@@ -1,0 +1,45 @@
+body{
+    margin: 20px;
+}
+.logo{
+    border-radius: 15px;
+    width:150px;
+    height: 150px;
+    border: 1px solid gold;
+}
+
+
+/* margin top > margin right > margin bottom > margin left
+    first margin # is vertival line (top & bottom )
+    second margin # is horizpntal line(left & right)*/
+.card{
+    
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    width:400px;
+    margin: 0 auto;
+    text-align: center;
+    color: gold;
+    background-color: #1f2017;
+    border-bottom: 8px solid gold;
+    border-top: 8px solid gold;;
+
+}
+.italic{
+    font-style: italic;
+    font-size: 24px;
+   
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
